@@ -3,3 +3,4 @@ torch
 imageio
 opencv-python
 imageio-ffmpeg
+correlation
