@@ -1,5 +1,4 @@
-# IFRNet: Intermediate Feature Refine Network for Efficient Frame Interpolation
-The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022).
+# Video Frame Interpolation (24 to 30 fps)
 
 Authors: [Utku Acar](https://github.com/hyperionsolitude/)
 
