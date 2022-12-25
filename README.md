@@ -26,27 +26,35 @@ This project based on IFRNET
 <pre>
 <code>$ git clone https://github.com/hyperionsolitude/Video-Frame-Interpolation</code>
 </pre>
-4. Change directory to the path of Video-Frame-Interpolation.
+4. Install Anaconda with following steps at [this link](https://www.hostinger.com/tutorials/how-to-install-anaconda-on-ubuntu/).
 <pre>
-<code>$ cd Video-Frame-Interpolation</code>
+<code>$ sudo apt-get update</code>
+<code>$ cd /tmp</code>
+<code>$ apt-get install wget</code>
+<code>$ wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh</code>
+<code>$ bash Anaconda3-2022.05-Linux-x86_64.sh</code>
+<code>$ source ~/.bashrc</code>
 </pre>
-6. Install Anaconda with following steps at [this link](https://www.hostinger.com/tutorials/how-to-install-anaconda-on-ubuntu/).
-7. Create an Anaconda environment with Python 3.6.13 named as vidint.
+5. Create an Anaconda environment with Python 3.6.13 named as vidint.
 <pre>
 <code>$ conda create -n vidint python=3.6 -y</code>
 </pre>
-7. Activate Anaconda environment named as vidint previous step.
+6. Activate Anaconda environment named as vidint previous step.
 <pre>
 <code>$ conda activate vidint</code>
 </pre>
-8. Install required python libraries from requirements.txt
+7. Install required python libraries from requirements.txt
 <pre>
 <code>$ pip install -r requirements.txt</code>
 </pre>
 ## Download Pre-trained Models and Play with Demos
 
 1. Download our pre-trained models in this [link](https://www.dropbox.com/sh/hrewbpedd2cgdp3/AADbEivu0-CKDQcHtKdMNJPJa?dl=0), and then put file <code> checkpoints</code> into the root dir.
-2. Create a sample of 30 fps video with processing 24 fps video via running test.sh.
+2. Change directory to the path of Video-Frame-Interpolation.
+<pre>
+<code>$ cd ~/Video-Frame-Interpolation</code>
+</pre>
+3. Create a sample of 30 fps video with processing 24 fps video via running test.sh.
 <pre>
 <code>$ ./test.sh</code>
 </pre>
