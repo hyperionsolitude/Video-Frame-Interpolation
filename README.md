@@ -1,9 +1,9 @@
 # Video Frame Interpolation (24 to 30 fps)
 
-Authors: [Utku Acar](https://github.com/hyperionsolitude/)
+Authors: [Utku Acar](https://github.com/hyperionsolitude)
 
 ## Highlights
-This project based on IFRNET
+This project based on [IFRNET](https://github.com/ltkong218/IFRNet)
 
 ## YouTube Demos
 [[4K60p] うたわれるもの 偽りの仮面 OP フレーム補間+超解像 (IFRnetとReal-CUGAN)](https://www.youtube.com/watch?v=tV2imgGS-5Q)
