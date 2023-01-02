@@ -8,9 +8,10 @@ from PIL import Image
 import cv2
 import sys
 import shutil
-torch.cuda.set_device(0)
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+torch.cuda.set_device(device)
 model = Model().cuda().eval()
-model.load_state_dict(torch.load('./checkpoints/IFRNet/IFRNet_Vimeo90K.pth'))
+model.load_state_dict(torch.load('./checkpoints/IFRNet/IFRNet_GoPro.pth'))
 i= int(sys.argv[1])
 offset= int(sys.argv[2])
 prev_img = read("./imgs/frame"+str(offset+i)+".png")

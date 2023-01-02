@@ -4,3 +4,4 @@ imageio
 opencv-python
 imageio-ffmpeg
 correlation
+matplotlib
