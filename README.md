@@ -46,6 +46,10 @@ This project based on [IFRNET](https://github.com/ltkong218/IFRNet)
 <pre>
 <code>$ pip install -r requirements.txt</code>
 </pre>
+8. Install cupy library.
+<pre>
+<code>$ conda install -c conda-forge cupy</code>
+</pre>
 ## Download Pre-trained Models and Play with Demos
 
 1. Download our pre-trained models in this [link](https://www.dropbox.com/sh/hrewbpedd2cgdp3/AADbEivu0-CKDQcHtKdMNJPJa?dl=0), and then put file <code> checkpoints</code> into the root dir.
