@@ -1,0 +1,5 @@
+Count: 220
+Total: 450.5353094999998
+Average: 2.0478877704545444
+Minimum: 0.89978171 at frame 12
+Maximum: 7.61755983 at frame 516
