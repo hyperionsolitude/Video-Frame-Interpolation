@@ -4,7 +4,8 @@ rm -r imgs;mkdir imgs
 rm -r res_frames;mkdir res_frames
 rm -r compare_frames;mkdir compare_frames
 offset=0
-framenumber=$(python3 vid2img.py)
+pathofsample="./samples/sample1.mp4"
+framenumber=$(python3 vid2img.py $pathofsample)
 maxframe="$((framenumber-1))"
 demo="$((framenumber-2))"
 comp="$((maxframe/4))"

@@ -1,5 +1,7 @@
 import cv2
-vidcap = cv2.VideoCapture('./samples/sample1.mp4')
+import sys
+path= sys.argv[1]
+vidcap = cv2.VideoCapture(path)
 success,image = vidcap.read()
 count = 1
 while success:
