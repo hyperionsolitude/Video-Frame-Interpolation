@@ -19,4 +19,4 @@ do
 done
 
 python3 per_pixel_loss.py $comp
-python3 log_edit.py perframeloss.txt
+python3 log_edit.py perframeloss.txt | tee statistics.txt
