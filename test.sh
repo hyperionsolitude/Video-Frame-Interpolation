@@ -4,17 +4,19 @@ rm -r imgs;mkdir imgs
 rm -r res_frames;mkdir res_frames
 rm -r compare_frames;mkdir compare_frames
 offset=0
-maxframe=883 # Total Frame Number of the video
-comp=220
-python3 vid2img.py
-for n in {1..882} # 0 to Total Frame Number of the video -1
+framenumber=$(python3 vid2img.py)
+maxframe="$((framenumber-1))"
+demo="$((framenumber-2))"
+comp="$((maxframe/4))"
+for ((i=1; i <= $demo; i++));
 do
-    python3 demo_24to30.py $n $offset
+    python3 demo_24to30.py $i $offset
 done
 python3 reconstruction.py $maxframe $offset
-for n in {1..220} 
+for ((j=1; j <= $comp; j++)); 
 do
-    python3 performance_test.py $n $offset
+    python3 performance_test.py $j $offset
 done
 
 python3 per_pixel_loss.py $comp
+python3 log_edit.py perframeloss.txt
