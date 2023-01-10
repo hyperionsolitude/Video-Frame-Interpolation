@@ -15,7 +15,7 @@ This project based on [IFRNET](https://github.com/ltkong218/IFRNet)
 [IFRNet frame interpolation](https://www.youtube.com/watch?v=ygSdCCZCsZU)
 
 ## Preparation
-1. Install Ubuntu 22.04.1.
+1. Install Ubuntu (tested on 22.04.1).
 2. Install git.
 <pre>
 <code>$ sudo apt update</code>
