@@ -29,7 +29,7 @@ This project based on [IFRNET](https://github.com/ltkong218/IFRNet)
 <pre>
 <code>$ sudo apt-get update</code>
 <code>$ cd /tmp</code>
-<code>$ apt-get install wget</code>
+<code>$ sudo apt-get install wget</code>
 <code>$ wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh</code>
 <code>$ bash Anaconda3-2022.05-Linux-x86_64.sh</code>
 <code>$ source ~/.bashrc</code>
