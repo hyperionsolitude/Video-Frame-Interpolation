@@ -20,6 +20,7 @@ This project based on [IFRNET](https://github.com/ltkong218/IFRNet)
 <pre>
 <code>$ sudo apt update</code>
 <code>$ sudo apt install git</code>
+<code>$ sudo apt-get install build-essential</code>
 </pre>
 3. Checkout this repo to your machine.
 <pre>
