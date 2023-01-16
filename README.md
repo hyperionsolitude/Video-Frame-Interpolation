@@ -44,6 +44,7 @@ This project based on [IFRNET](https://github.com/ltkong218/IFRNet)
 </pre>
 7. Install required python libraries from requirements.txt
 <pre>
+<code>$ cd ./Video-Frame-Interpolation</code>
 <code>$ pip install -r requirements.txt</code>
 </pre>
 8. Install cupy library.
